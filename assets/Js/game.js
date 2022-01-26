@@ -1,3 +1,4 @@
+// questions for the quiz and given in random order
 var questions = [
     { 
         question: "How do you write 'Hello World' in an alert box?", 
