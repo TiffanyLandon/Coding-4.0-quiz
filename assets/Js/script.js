@@ -1,5 +1,5 @@
 // Start the quiz with a timer set to 75. Timer left also will be the final score.
-var timeLeft = 100;
+var timeLeft = 75;
 var timerID;
 var timerEl = document.getElementById("timer");
 var startButton = document.getElementById("start-btn");
@@ -52,7 +52,7 @@ function startGame() {
 };
 
 
-// Go to next question and random the questions.
+// Go to next question
 function setNextQuestion() {
     resetState();
     showQuestion(shuffledQuestions[currentQuestionIndex]);
